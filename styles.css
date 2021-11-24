@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background: linear-gradient(90deg, rgba(97,67,133,1) 0%, rgba(81,99,149,1) 50%);
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
+    color: black;
+}
+h1{
+    text-align: center;
+    margin :auto;
+    margin-top: 50px;
+    width: 80vw;
+    font-size: 60px;
+    opacity: .6;
+}
+h2{
+    text-align: center;
+    margin :auto;
+    margin-top: 50px;
+    width: 80vw;
+    font-size: 40px;
+    opacity: .6;
+}
+
+.video-container{
+    margin: auto;
+    margin-top: 0px;
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    justify-content:space-between;
+}
+.row{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    font-size: 120px;
+}
+.videos{
+    width: 660px;
+    height: 415px;
+    display: flex;
+    align-self: center;
+    position: relative;
+    justify-content: center;
+}
+
+iframe{
+    position: absolute;
+    align-self: center;
+    border-radius: 40px;
+    border:none;
+}
+video{
+    position: absolute;
+    align-self: center;
+    background-color: black;
+    border-radius: 40px;
+    border:none
+}
+button{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+button:hover{
+    opacity: .6;
+}
+
+#corazon1,#corazon2{
+    font-size: 50px;
+    color: #581845;
+}
+#name{
+    display: flex;
+    font-size: 45px;
+    justify-content:space-evenly;
+    opacity: .6;
+}
+@media only screen and (max-width: 1300px){
+    iframe{
+       width: 560px;
+       height: 315px;
+        
+    }
+
+    video{
+        width: 560px;
+        height: 315px;
+    }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos del Youtube</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Sitio de Prueba para Ingeniería de Software</h1>
+   <div class="video-container">
+        <div class="row" id="left-row" >
+            <button id="left"><i class="fas fa-caret-left"></i></button>
+        </div>
+        <div class="videos">
+            <video id="video" controls  src="video.mp4" width="660" height="415"></video>
+            <iframe id="youtube" width="660" height="415" src="https://www.youtube.com/embed/yvhpJSNjEtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+       <div class="row" id="right-row" >
+            <button id="rigth"><i class="fas fa-caret-right"></i></button>
+        </div>
+   </div>
+    <h2 id="tipoVideo">Video from Youtube</h2>
+    <h2 id="name"> <i id="corazon1" class="fas fa-heart" ></i>Andrade Santiago José de Jesús<i id="corazon2" class="fas fa-heart"></i></h2>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
